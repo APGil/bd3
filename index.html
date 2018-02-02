@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/bd.css">
+</head>
+<body>
+
+    <div id="surv">
+        <h2>SABER (conocimientos)</h2>
+
+        <select id="drop1" class="drop">
+            <option value="none">----------</option>
+            <option value="musica" onclick="valor()">Música</option>
+            <option value="lit" onclick="valor()">Literatura</option>
+            <option value="cine" onclick="valor()">Cinema</option>
+        </select>
+        <br>
+        <br>
+        <br>
+        <select id="drop2" class="drop">
+            <option value="none2">----------</option>
+            <option value="musica2" onclick="valor()">Música</option>
+            <option value="lit2" onclick="valor()">Literatura</option>
+            <option value="cine2" onclick="valor()">Cinema</option>
+        </select>
+        <br>
+        <br>
+        <br>
+        <select id="drop3" class="drop">
+            <option value="none3">----------</option>
+            <option value="musica3" onclick="valor()">Música</option>
+            <option value="lit3" onclick="valor()">Literatura</option>
+            <option value="cine3" onclick="valor()">Cinema</option>
+        </select>
+        
+        <br>
+        <br>
+        <br>
+        <input type="submit" value="Enviar" onclick="bubbles()">
+    </div>
+    
+    <div id="surv2">
+        <h2>SABER HACER (Habilidades)</h2>
+
+        <select id="drop11" class="drop">
+            <option value="none11">----------</option>
+            <option value="dir1" onclick="valor()">Dirección</option>
+            <option value="dg1" onclick="valor()">Diseño<br>Gráfico</option>
+            <option value="tip1" onclick="valor()">Tipografía</option>
+        </select>
+        <br>
+        <br>
+        <br>
+        <select id="drop22" class="drop">
+            <option value="none22">----------</option>
+            <option value="dir2" onclick="valor()">Dirección</option>
+            <option value="dg2" onclick="valor()">Diseño<br>Gráfico</option>
+            <option value="tip2" onclick="valor()">Tipografía</option>
+        </select>
+        <br>
+        <br>
+        <br>
+        <select id="drop33" class="drop">
+            <option value="none33">----------</option>
+            <option value="dir3" onclick="valor()">Dirección</option>
+            <option value="dg3" onclick="valor()">Diseño<br>Gráfico</option>
+            <option value="tip3" onclick="valor()">Tipografía</option>
+        </select>
+        
+        <br>
+        <br>
+        <br>
+        <input type="submit" value="Enviar" onclick="bubbles()">
+    </div>
+
+    <div id="graph" class="no_graph">
+        <div id="sab1">
+            <div id="sab1txt">SABER <br> (conocimientos)</div>
+            <!---funciona amb el drop down 1--->
+            <div id="op1_1" class="bb1_1" >
+                <div id="optxt1_1">Música</div>
+            </div>
+            <div id="op2_1" class="bb2_1">
+                <div id="optxt2_1">Literatura</div>
+            </div>
+            <div id="op3_1" class="bb3_1">
+                <div id="optxt3_1">Cinema</div>
+            </div>
+            
+            <!---funciona amb el drop down 2--->
+            <div id="op11_1" class="bb11_1" >
+                <div id="optxt11_1">Música</div>
+            </div>
+            <div id="op22_1" class="bb22_1">
+                <div id="optxt22_1">Literatura</div>
+            </div>
+            <div id="op33_1" class="bb33_1">
+                <div id="optxt33_1">Cinema</div>
+            </div>
+            
+            <!---funciona amb el drop down 3--->
+            <div id="op111_1" class="bb111_1" >
+                <div id="optxt111_1">Música</div>
+            </div>
+            <div id="op222_1" class="bb222_1">
+                <div id="optxt222_1">Literatura</div>
+            </div>
+            <div id="op333_1" class="bb333_1">
+                <div id="optxt333_1">Cinema</div>
+            </div>
+        </div>
+        
+        
+        
+        <div id="sab2">
+            <div id="sab2txt">SABER HACER <br> (Habilidades)</div>
+            <!---funciona amb el drop down 11--->
+            <div id="op1_2" class="bb1_2" >
+                <div id="optxt1_2">Dirección</div>
+            </div>
+            <div id="op2_2" class="bb2_2">
+                <div id="optxt2_2">Diseño<br>Gráfico</div>
+            </div>
+            <div id="op3_2" class="bb3_2">
+                <div id="optxt3_2">Tipografía</div>
+            </div>
+            
+            <!---funciona amb el drop down 22--->
+            <div id="op11_2" class="bb11_2" >
+                <div id="optxt11_2">Dirección</div>
+            </div>
+            <div id="op22_2" class="bb22_2">
+                <div id="optxt22_2">Diseño<br>Gráfico</div>
+            </div>
+            <div id="op33_2" class="bb33_2">
+                <div id="optxt33_2">Tipografía</div>
+            </div>
+            
+            <!---funciona amb el drop down 33--->
+            <div id="op111_2" class="bb111_2" >
+                <div id="optxt111_2">Dirección</div>
+            </div>
+            <div id="op222_2" class="bb222_2">
+                <div id="optxt222_2">Diseño<br>Gráfico</div>
+            </div>
+            <div id="op333_2" class="bb333_2">
+                <div id="optxt333_2">Tipografía</div>
+            </div>
+        </div>
+    </div>
+
+    
+    
+<script type="application/javascript" src="js/bd.js"></script>
+
+</body>
+</html>
